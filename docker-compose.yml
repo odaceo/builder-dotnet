@@ -8,5 +8,5 @@ services:
       dockerfile: ../Dockerfile
       args:
         BUILDER_VERSION: ubuntu18
-        DOTNET_SDK_VERSION: 2.1
+        DOTNET_SDK_VERSION: '2.1'
     image: odaceo/dotnet:2.1-ubuntu18
